@@ -32,3 +32,8 @@ function guestPlusThree() {
     guestTotalScore += 3
     document.getElementById("guest-score").textContent = guestTotalScore
 }
+
+function reset() {
+    document.getElementById("home-score").textContent = 0
+    document.getElementById("guest-score").textContent = 0
+}

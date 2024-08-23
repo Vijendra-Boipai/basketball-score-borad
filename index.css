@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: #1B244A;
-    height: 385px;
+    height: 400px;
     width: 575px;
     margin: auto;
 }
@@ -57,4 +57,21 @@ body {
     font-size: 18px;
     line-height: 27.81px;
     text-align: center;
+}
+
+#resetBtn {
+    height: 45px;
+    width: 155px;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    color: #F94F6D;
+    font-family: Cursed Timer ULiL;
+    font-size: 50px;
+    line-height: 27.81px;
+    position: absolute;
+    align-items: center;
+    top: 320px;
+    border-style: none;
 }
