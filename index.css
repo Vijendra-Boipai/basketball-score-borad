@@ -11,7 +11,7 @@ body {
     margin: auto;
 }
 
-.home-title {
+.home-title, .guest-title {
     height: 36px;
     width: 149px;
     color: #EEEEEE;
@@ -22,7 +22,7 @@ body {
     text-align: center;
 }
 
-.home-score {
+#home-score, #guest-score {
     height: 120px;
     width: 155px;
     border-radius: 5px;
@@ -35,7 +35,7 @@ body {
     color: #F94F6D;
 }
 
-.home-score-buttons {
+.home-score-buttons, .guest-score-buttons {
     height: 45px;
     width: 155px;
     margin: 26px 0px;
@@ -43,7 +43,7 @@ body {
     justify-content: space-around;
 }
 
-.home-score-plus-one, .home-score-plus-two, .home-score-plus-three {
+#home-score-plus-one, #home-score-plus-two, #home-score-plus-three, #guest-score-plus-one, #guest-score-plus-two, #guest-score-plus-three {
     height: 45px;
     width: 45px;
     border: 2px solid #9AABD8;
