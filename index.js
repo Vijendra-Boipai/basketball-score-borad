@@ -34,6 +34,8 @@ function guestPlusThree() {
 }
 
 function reset() {
-    document.getElementById("home-score").textContent = 0
-    document.getElementById("guest-score").textContent = 0
+    homeTotalScore = 0
+    guestTotalScore = 0
+    document.getElementById("home-score").textContent = homeTotalScore
+    document.getElementById("guest-score").textContent = guestTotalScore
 }
